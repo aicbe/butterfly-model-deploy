@@ -5,8 +5,8 @@ from io import BytesIO
 import numpy as np
 import requests
 from flask import Flask, request, jsonify
-from keras.applications import inception_v3
-from keras.preprocessing import image
+from tensorflow.keras.applications import inception_v3
+from tensorflow.keras.preprocessing import image
 
 # from flask_cors import CORS
 
