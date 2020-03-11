@@ -4,3 +4,5 @@
 /butter
 
 /.vscode
+
+/flask_server/__pycache__/*

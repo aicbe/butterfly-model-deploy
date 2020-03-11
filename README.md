@@ -1,6 +1,7 @@
+```console
 
-# Deploying Keras models using TensorFlow Serving
-Read more about this project [here](https://towardsdatascience.com/deploying-keras-models-using-tensorflow-serving-and-flask-508ba00f1037)
+tensorflow_model_server --model_base_path=/mnt/e/git/butterfly-model-deploy/my_image_classifier --rest_api_port=9000 --model_name=ImageClassifier
 
-
-https://raw.githubusercontent.com/himanshurawlani/keras-and-tensorflow-serving/master/scripts/inception.h5
+cd flask_Server
+flask run --host=0.0.0.0
+```
